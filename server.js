@@ -47,6 +47,8 @@
                              fileList = s.split('\n');
                              fileList.shift();
                              fileList.shift();
+                             fileList.pop();
+                             
     }
     ,       findPackages    = function  (fn,iTime)      {
                 var me          = 'findPackages'
@@ -97,32 +99,63 @@
     app.use('/search/', function (reQ,response) {
         var Q   =   reQ.path.substring(1)
         ,   rex =   '('+Q+')+'
+        ,   urx =   '(github\.com\/[a-zA-Z0-9]+\/)'
         ,   re  =   new RegExp()
         ,   res =   pageHeader.replace('^?¿',Q)+  '<pre><table width=100%>'
         ,   line
         ,   max =   1000
         ,   cnt =   0
         ,   idx =   0
+        ,   i
+        ,   list=   []
+        ,   tblS=   ''
+        ,   user
+        ,   proj
         ;
         
-        numEntries=fileList.length; 
+        
+        
+        re.compile(rex,'gi'); 
+        
+        for (i in fileList) list[++idx] = fileList[i];
+        numEntries=idx-1;
         res+='<tr><th></th><th>Num registered Packages: '+numEntries+'</th></tr>';
         
-        re.compile(rex,'gi');
-        for (i in fileList){
-         line=fileList[i].trim();   
-         ++idx;
+        for (i=0; i < numEntries; i++)  {    
+         //idx=i+1
+         line = list[idx--].trim();
+         
          var ss=re.test(line);
-            if (ss){ re.compile(rex,'gi');
-             var ln=line.split(' ');
-             res+='<tr><td>'+idx+'</td><td>'+ln[0]+'</td><td>'+ln[1]+'</td></tr>';
-             if (++cnt > max) { 
-              res+='<tr><td id=warn colspan=3>WARNING RESULT TRUNCATED!</td></tr>'; 
+            if (ss){ 
+             re.compile(urx);
+             user = re.exec(line);
+             
+             if (user){
+               var  my  = user[0]
+               ,    pos = user.index
+               ,    len = my.length
+               user = my.substring(11,len-1);
+               proj = line.substring(pos+len,line.length-4);
+             }
+             else { user='no.user'; proj='no.proj'; }
+             re.compile(rex,'gi'); // (re)compile each time otherwise will fail!!
+             var    ln  =line.split(' ')
+             ,      name=ln[0]
+             ,      lnk =ln[1]
+             tblS   +='<tr><td>'+idx+'</td>'
+                    +'<td><b>'+name+'</b></td>'
+                    +'<td>'+user+'</td>'
+                    +'<td>'+proj+'</td>'
+                    +'<td><a target=new href="'+lnk+'">'+lnk+'</a></td></tr>';
+             if (++cnt >= max) { 
+              res+='<tr><td id=warn colspan=5>WARNING RESULT TRUNCATED!</td></tr>'; 
               break; 
              }
             }
         }
-        res+='<tr><td id=info colspan=3>'+cnt+' results</td></tr>'; 
+        res+='<tr><td id=info colspan=5>'+cnt+' results</td></tr>'; 
+        res+='<tr><td>idx</td><td>Name</td><td>User</td><td>Package</td><td>URL</td></tr>';
+        res+=tblS;
         res+='</table></pre>'+pageFooter;
         response.send(res);
     });

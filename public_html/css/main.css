@@ -8,6 +8,8 @@ body    {
     margin                      :   0px;
 }
 
+
+
 #out    {
     display                     :   block; 
     background-color            :   #aaa;
@@ -24,12 +26,25 @@ body    {
     foreground-color            :   #444;
 }
 
+
 table tr:nth-of-type(odd) td{
     background-color            :   #f0f0f0;
 }
 
 table tr:nth-of-type(even) td{
     background-color            :   #e0e0e0;
+}
+
+table tr:nth-of-type(4) td{
+    background-color            :   #d0f0f0;
+}
+
+table th {
+    font-size                   :   90%;
+}
+
+table b {
+    font-size                   :   125%;
 }
 
 #header {

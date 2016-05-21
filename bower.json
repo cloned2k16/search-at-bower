@@ -1,6 +1,6 @@
 {
         "name"          :   "search-at-bower"
-    ,   "version"       :   "0.0.1"
+    ,   "version"       :   "0.0.2"
     ,   "description"   :   "Simpli search for package in Bower DDBB"
     ,   "main"          :   "index.js"
     ,   "scripts"       :   {
