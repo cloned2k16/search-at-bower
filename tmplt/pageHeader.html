@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <HTML>
+  <HEAD>
+   <META charset="UTF-8"                                                                            >
+   <SCRIPT  src="../doc_ready/index.js"         type="text/javascript"                              ></SCRIPT>
+   <LINK    href="../css/main.css"              type="text/css"         rel="stylesheet"    async   >
+   <SCRIPT                                      type="text/javascript"                              ><!--
+    var log     = function  ()      { Function.apply.call(console.log,console,arguments);       }
+    ,   byId    = function  (id)    { return document.getElementById(id);                       }
+    
+    _onDocReady ( function  ()      { log('DOM is Ready');
+        var f = byId('f1')
+        ,   q = byId('q1')
+        ;
+        
+        f.onsubmit= function (e) { log('submit:',e);
+         var uri    =   e.target.baseURI
+         ,   what   =   q.value
+         ,   url    =   uri.substring(0,uri.lastIndexOf('/')+1)+ what
+         ;
+         f1.action=url;
+         return what.length > 0 ? true : false;
+        };    
+    });    
+    // -->
+  </SCRIPT> 
+   <TITLE>Bower Search</TITLE>
+ </HEAD> 
+  <BODY>
+   <DIV id=header>
+    <DIV>
+     <A href="http://bower.io/" ><IMG src="http://bower.io/img/bower-logo.png" alt="bower logo"></A>
+     <H1>Search Bower packages</H1>
+   </DIV>
+	<DIV>
+     <FORM id=f1><INPUT id=q1 type=TEXT value="^?¿"></INPUT></FORM>
+     <H6><A href="https://github.com/cloned2k16/search-at-bower">by cloned2k16</A></H6>
+   </DIV>
+  </DIV> 

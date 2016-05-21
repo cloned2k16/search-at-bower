@@ -1,0 +1,57 @@
+html    {
+    
+}
+
+body    {
+    height                      :   100vh;
+    min-height                  :   100vh;
+    margin                      :   0px;
+}
+
+#out    {
+    display                     :   block; 
+    background-color            :   #aaa;
+    width                       :   100%; 
+    height                      :   100%;
+}    
+#warn {
+    background-color            :   #fD4;
+    foreground-color            :   #000;
+}
+
+#info {
+    background-color            :   #ef9;
+    foreground-color            :   #444;
+}
+
+table tr:nth-of-type(odd) td{
+    background-color            :   #f0f0f0;
+}
+
+table tr:nth-of-type(even) td{
+    background-color            :   #e0e0e0;
+}
+
+#header {
+    height                      :   128px;   
+}
+
+#header h6{
+    float                       :   right;
+}
+
+#header img {
+    height                      :   64px;   
+    float                       :   left;
+}
+
+#header div {
+    margin-left                 :   7px;
+    margin-right                :   7px;
+}
+
+#header input {
+    margin-left                 :   7px;
+    margin-right                :   7px;
+    width                       :   50%;
+}
