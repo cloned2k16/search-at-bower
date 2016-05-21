@@ -166,5 +166,5 @@
 
     // ====================================================== Main Loop
     app.listen(_.LISTEN_PORT,_.LISTEN_IP);
-    _.log("Express server listening on http://localhost:"+_.LISTEN_PORT+"/");
+    _.log("Express server listening on http://"+_.LISTEN_IP+":"+_.LISTEN_PORT+"/");
  
