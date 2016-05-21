@@ -12,6 +12,7 @@
             }
             
             _log('DOM is Ready');
+            window.location='search/';
      });  
      _log('after');
      _onDocReady ( function () { _log('DOM is Ready (second subscriber)');
