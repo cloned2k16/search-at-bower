@@ -20,7 +20,8 @@
     //  ===================================================== Configuration
         _APP.PUBLIC_HTML    = '/public_html'; 
         _APP.BOWER_DIR      = '/bower_components';
-        _APP.LISTEN_PORT    = process.env.PORT || 1111;
+        _APP.LISTEN_PORT    = process.env.OPENSHIFT_NODEJS_PORT || 1111;
+        _APP.LISTEN_IP      = process.env.OPENSHIFT_NODEJS_IP   || '127.0.0.1';
         _APP.log            = function log  ()      { return Function.apply.call(console.log    ,console,arguments); };
         _APP.timeSt         = function      (name)  { return timers[name]= (new Date()).getTime();};
         _APP.timeEn         = function      (name)  { return (new Date()).valueOf() - timers[name];};
@@ -164,6 +165,6 @@
     app.use(function(req, res){ res.sendStatus(404);});                             // simply NOT FOUND
 
     // ====================================================== Main Loop
-    app.listen(_.LISTEN_PORT);
+    app.listen(_.LISTEN_PORT,_.LISTEN_IP);
     _.log("Express server listening on http://localhost:"+_.LISTEN_PORT+"/");
  
