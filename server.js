@@ -20,7 +20,7 @@
     //  ===================================================== Configuration
         _APP.PUBLIC_HTML    = '/public_html'; 
         _APP.BOWER_DIR      = '/bower_components';
-        _APP.LISTEN_PORT    = 1111;
+        _APP.LISTEN_PORT    = 80;
         _APP.log            = function log  ()      { return Function.apply.call(console.log    ,console,arguments); };
         _APP.timeSt         = function      (name)  { return timers[name]= (new Date()).getTime();};
         _APP.timeEn         = function      (name)  { return (new Date()).valueOf() - timers[name];};
