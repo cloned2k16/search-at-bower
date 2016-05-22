@@ -36,7 +36,7 @@
         
     }
     ,       copyFile        = function  (tn,name)       {
-        exec('copy '+tn +' '+name+' /V /Y', (err, stdout, stderr) => {
+        exec('cp '+tn +' '+name+' -f', (err, stdout, stderr) => {
                     if (err) _.log(err);
                     else {
                        // _.log('copied');
@@ -60,7 +60,7 @@
                 
                 function loop () { _.timeSt(me);    
 
-                 exec('call bower search > '+fileName, (err, stdout, stderr) => {
+                 exec('bower search > '+fileName, (err, stdout, stderr) => {
                     if (err) {
                         _.log(err);
                         delay   = 10e3;
