@@ -66,7 +66,7 @@
                         delay   = 10e3;
                     }                        
                     else {
-                        readFile(fileName, (s) => storeCache(s) );
+                        readFile(fileName,function  (s){ storeCache(s) } );
                         copyFile(fileName,outFileN);
                     }    
                     var    ellpsd  =   _.timeEn(me)
