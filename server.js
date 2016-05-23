@@ -60,7 +60,7 @@
                 
                 function loop () { _.timeSt(me);    
 
-                 exec('call bower search > '+fileName, function (err, stdout, stderr) {
+                 exec('bower search > '+fileName, function (err, stdout, stderr) {
                     if (err) {
                         _.log(err);
                         delay   = 10e3;
@@ -82,6 +82,8 @@
                 loop(); //fire the loop
             }  
     ;
+    exec('dir ', function (err, stdout, stderr) { _.log(err,stdout,stderr); });
+        
     // load search page templates
     readFile('tmplt/pageHeader.html',function (s) {pageHeader = s });
     readFile('tmplt/pageFooter.html',function (s) { pageFooter = s} );
