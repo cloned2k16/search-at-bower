@@ -4,7 +4,8 @@
     ,   "description"   :   "Simpli search for package in Bower DDBB"
     ,   "main"          :   "index.js"
     ,   "scripts"       :   {
-                                "test": "npm test"
+                                "test"          : "npm test"
+                                "nodejs"        : "npm start"
                         }
     ,   "repository"    :   {
                                 "type": "git"
