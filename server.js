@@ -83,15 +83,15 @@
             }  
     ;
     // load search page templates
-    readFile('tmplt/pageHeader.html', (s) => pageHeader = s );
-    readFile('tmplt/pageFooter.html', (s) => pageFooter = s );
+    readFile('tmplt/pageHeader.html',function (s) {pageHeader = s });
+    readFile('tmplt/pageFooter.html',function (s) { pageFooter = s} );
      
     // setup static content folders 
     app.use(express.static(__dirname + _.PUBLIC_HTML));                             //
     app.use(express.static(__dirname + _.BOWER_DIR  ));
     
     // read stored DB    
-    readFile(cacheName+'.lst', (s) => storeCache(s) );    
+    readFile(cacheName+'.lst',function (s) { storeCache(s)} );    
     
     // start DB refresh loop (10 minutes)
     findPackages(cacheName, 60e3 * 10);
