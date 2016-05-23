@@ -5,7 +5,7 @@
     ,   "main"          :   "index.js"
     ,   "scripts"       :   {
                                 "test"          : "npm test"
-                                "nodejs"        : "npm start"
+                            ,   "nodejs"        : "npm start"
                         }
     ,   "repository"    :   {
                                 "type": "git"
