@@ -20,7 +20,7 @@
     //  ===================================================== Configuration
         _APP.PUBLIC_HTML    = '/public_html'; 
         _APP.BOWER_DIR      = '/bower_components';
-        _APP.LISTEN_PORT    = process.env.OPENSHIFT_NODEJS_PORT || 1111;
+        _APP.LISTEN_PORT    = process.env.OPENSHIFT_NODEJS_PORT || 8080;
         _APP.LISTEN_IP      = process.env.OPENSHIFT_NODEJS_IP   || '127.0.0.1';
         _APP.log            = function log  ()      { return Function.apply.call(console.log    ,console,arguments); };
         _APP.timeSt         = function      (name)  { return timers[name]= (new Date()).getTime();};
