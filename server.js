@@ -1,39 +1,40 @@
 // server.js
+"use strict";
 
-    
     //  ===================================================== Set Up
-    const   _APP                =   {}
+    var     _APP                =   {}
     ,       express             =   require             ('express')
-    ,       app                 =   express()     
-    ,       router              =   express.Router()     
-    ,       morgan              =   require             ('morgan')            
-    ,       fs                  =   require             ('fs')    
+    ,       app                 =   express()
+    ,       router              =   express.Router()
+    ,       morgan              =   require             ('morgan')
+    ,       fs                  =   require             ('fs')
     ,       exec                =   require             ('child_process').exec
-    ;
-    var     timers              = []
-    ,       fileList        =   ''
-    ,       pageHeader      
-    ,       pageFooter   
-    ,       cacheName   = 'packages'
+    ,       request             =   require             ('request')
+    ,       timers              =   []
+    ,       fileList_new        =   []
+    ,       fileList            =   []
+    ,       pageHeader
+    ,       pageFooter
+    ,       cacheName           = 'packages'
     ,       numEntries
     ;
     //  ===================================================== Configuration
-        _APP.PUBLIC_HTML    = '/public_html'; 
+        _APP.PUBLIC_HTML    = '/public_html';
         _APP.BOWER_DIR      = '/bower_components';
-        _APP.LISTEN_PORT    = process.env.port || 1111;
+        _APP.LISTEN_PORT    = process.env.port || process.env.PORT || 1111;
         _APP.log            = function log  ()      { return Function.apply.call(console.log    ,console,arguments); };
         _APP.timeSt         = function      (name)  { return timers[name]= (new Date()).getTime();};
         _APP.timeEn         = function      (name)  { return (new Date()).valueOf() - timers[name];};
-        _                   = _APP;
-   
+        _APP.BOWER_DB_URL   = 'https://bower.herokuapp.com/packages' //   +'/search/cloned';
+
     //  ===================================================== Application
-    
-    const   readFile        = function  (fn , then)     {
+    var _                   = _APP
+    ,   readFile            = function  (fn , then)     {
                         fs.readFile(fn, 'utf8', function (err,data) {
-                            if (err) _.log  (err);
-                            else     then   (data);
+                            if (err)  _.log  (err);
+                            else     then    (data);
                         });
-        
+
     }
     ,       copyFile        = function  (tn,name)       {
         exec('cp '+tn +' '+name+' -f', function (err, stdout, stderr)  {
@@ -43,13 +44,19 @@
                     }
         });
     }
-    ,       storeCache      = function  (s)             {
-                             fileList = s.split('\n');
-                             fileList.shift();
-                             fileList.shift();
-                             fileList.pop();
-                             
+    ,       storeCache      = function  (data)             {
+                             data = data.split('\n');
+                             data.shift();
+                             data.shift();
+                             data.pop();
+            for (var i=0; i<data.length; i++ ) { 
+             var aa=data[i].trim().split(' ');
+             fileList_new[i  ] = { 'name':  aa[0], 'url':  aa[1] };
+             
+            }                               
+
     }
+
     ,       findPackages    = function  (fn,iTime)      {
                 var me          = 'findPackages'
                 ,   fileName    = fn+'.tmp'
@@ -57,18 +64,22 @@
                 ,   toMin       = 2500
                 ,   delay       = 0
                 ;
-                
-                function loop () { _.timeSt(me);    
 
-                 exec('bower search > '+fileName, function (err, stdout, stderr) {
+                function loop () { _.timeSt(me);
+
+                 request.get(_.BOWER_DB_URL, function (err, response, body) {                     
                     if (err) {
                         _.log(err);
                         delay   = 10e3;
-                    }                        
+                    }
                     else {
-                        readFile(fileName,function  (s){ storeCache(s) } );
-                        copyFile(fileName,outFileN);
-                    }    
+                        fileList_new = JSON.parse(body);
+                        _.log('num records:',fileList_new.length); // pairs { name ,url }
+                        
+                        _.log(fileList_new[0],fileList_new[fileList_new.length-1])
+                         
+                        
+                    }
                     var    ellpsd  =   _.timeEn(me)
                     ,      to      =   iTime - ellpsd;
                     ;
@@ -77,27 +88,27 @@
                     setTimeout(loop, to + delay);
                     delay=0;
                  });
-                 
+
                 };
                 loop(); //fire the loop
-            }  
+            }
     ;
-    exec('dir ', function (err, stdout, stderr) { _.log(err,stdout,stderr); });
-        
+
+
     // load search page templates
     readFile('tmplt/pageHeader.html',function (s) {pageHeader = s });
     readFile('tmplt/pageFooter.html',function (s) { pageFooter = s} );
-     
-    // setup static content folders 
+
+    // setup static content folders
     app.use(express.static(__dirname + _.PUBLIC_HTML));                             //
     app.use(express.static(__dirname + _.BOWER_DIR  ));
-    
-    // read stored DB    
-    readFile(cacheName+'.lst',function (s) { storeCache(s)} );    
-    
+
+    // read stored DB
+    readFile(cacheName+'.lst',function (s) { storeCache(s)} );
+
     // start DB refresh loop (10 minutes)
-    findPackages(cacheName, 60e3 * 10);
-    
+    findPackages(cacheName, 60e3 * 1);
+
     app.use('/search/', function (reQ,response) {
         var Q   =   reQ.path.substring(1)
         ,   rex =   '('+Q+')+'
@@ -114,24 +125,28 @@
         ,   user
         ,   proj
         ;
+
+        re.compile(rex,'gi');
         
+        if (fileList_new.length) { // it shouldn't be required to make it thread safe, but ...
+            fileList=fileList_new;
+            fileList_new = []
+        }
         
-        
-        re.compile(rex,'gi'); 
-        
-        for (i in fileList) list[++idx] = fileList[i];
-        numEntries=idx-1;
+           
+        for (i in fileList) list[++idx] = '['+fileList[i].name + '] ' +fileList[i].url;
+        numEntries=idx;
         res+='<tr><th></th><th>Num registered Packages: '+numEntries+'</th></tr>';
-        
-        for (i=0; i < numEntries; i++)  {    
+
+        for (i=0; i < numEntries; i++)  {
          //idx=i+1
          line = list[idx--].trim();
-         
+
          var ss=re.test(line);
-            if (ss){ 
+            if (ss){
              re.compile(urx);
              user = re.exec(line);
-             
+
              if (user){
                var  my  = user[0]
                ,    pos = user.index
@@ -149,23 +164,23 @@
                     +'<td>'+user+'</td>'
                     +'<td>'+proj+'</td>'
                     +'<td><a target=new href="'+lnk+'">'+lnk+'</a></td></tr>';
-             if (++cnt >= max) { 
-              res+='<tr><td id=warn colspan=5>WARNING RESULT TRUNCATED!</td></tr>'; 
-              break; 
+             if (++cnt >= max) {
+              res+='<tr><td id=warn colspan=5>WARNING RESULT TRUNCATED!</td></tr>';
+              break;
              }
             }
         }
-        res+='<tr><td id=info colspan=5>'+cnt+' results</td></tr>'; 
+        res+='<tr><td id=info colspan=5>'+cnt+' results</td></tr>';
         res+='<tr><td>idx</td><td>Name</td><td>User</td><td>Package</td><td>URL</td></tr>';
         res+=tblS;
         res+='</table></pre>'+pageFooter;
         response.send(res);
     });
-    
+
     morgan && app.use(morgan('dev'));                                               // log every request to the console
     app.use(function(req, res){ res.sendStatus(404);});                             // simply NOT FOUND
 
     // ====================================================== Main Loop
     app.listen(_.LISTEN_PORT);
     _.log("Express server listening on http://localhost:"+_.LISTEN_PORT+"/");
- 
+

@@ -28,5 +28,6 @@
                             ,   "bower"             :   ""
                             ,   "express"           :   ""
                             ,   "morgan"            :   ""
+                            ,   "request"           :   ""
                         }
 }
