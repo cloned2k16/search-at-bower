@@ -26,6 +26,16 @@ body    {
     foreground-color            :   #444;
 }
 
+input[type=text] {
+    background-color            :   #f0f0f0;
+    
+}
+
+::-webkit-input-placeholder {
+    background-color            :   #E0E090;
+    color                       :   #404040;
+    
+}
 
 table tr:nth-of-type(odd) td{
     background-color            :   #f0f0f0;

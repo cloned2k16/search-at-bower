@@ -144,7 +144,7 @@
              ,      lnk =ln[1]
              tblS   +='<tr><td>'+idx+'</td>'
                     +'<td><b>'+name+'</b></td>'
-                    +'<td>'+user+'</td>'
+                    +'<td><a href="/search/'+user+'">'+user+'</a></td>'
                     +'<td>'+proj+'</td>'
                     +'<td><a target=new href="'+lnk+'">'+lnk+'</a></td></tr>';
              if (++cnt >= max) { 
