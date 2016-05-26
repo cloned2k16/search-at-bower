@@ -1,6 +1,6 @@
 {
         "name"          :   "search-at-bower"
-    ,   "version"       :   "0.0.2"
+    ,   "version"       :   "0.0.4"
     ,   "description"   :   "Simpli search for package in Bower DDBB"
     ,   "main"          :   "index.js"
     ,   "scripts"       :   {
@@ -20,7 +20,7 @@
     ,   "bugs"          :   {
                                 "url": "https://github.com/cloned2k16/search-at-bower/issues"
                         }
-    ,   "homepage"      : "https://github.com/cloned2k16/search-at-bower#readme"
+    ,   "homepage"      :   "https://github.com/cloned2k16/search-at-bower#readme"
     ,   "dependencies"  :   {
                                 "string_prototypes" : ""
                             ,   "w4it"              : ""
