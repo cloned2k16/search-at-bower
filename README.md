@@ -21,6 +21,6 @@ Simply search for packages in bower DB ...
   and finally the results shon as per page is really annoyng (at least to me)
   
 
-try it on <h3>[EC2](http://www.aws0me.tk/search/) or .. on [Heroku](https://bower-search.herokuapp.com/search/) or .. on [Azure](http://bower-search.azurewebsites.net/search/) or .. on [ScalingGo](https://bower-search.scalingo.io/search/)
+try it on <h3><a herf="http://www.aws0me.tk/search/" target="_blank">EC2</a>.. or .. on [Heroku](https://bower-search.herokuapp.com/search/).. or .. on [Azure](http://bower-search.azurewebsites.net/search/).. or .. on [ScalingGo](https://bower-search.scalingo.io/search/)..
 
 <A href="http://bower.io/" ><IMG src="http://bower.io/img/bower-logo.png" alt="bower logo" width=64></A>
