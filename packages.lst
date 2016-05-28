@@ -38,6 +38,7 @@ Search results:
     2lemetry https://github.com/m2mIO/node-2lemetry.git
     2ps-intro.js https://github.com/2PS-LAB/intro.js.git
     2sc_m_ui https://github.com/noonbell/2sc_m_ui.git
+    313-study-jquery https://github.com/LichKing-lee/jquery.git
     320andup https://github.com/malarkey/320andup.git
     352-dragular https://github.com/352Media/dragular.git
     3b https://github.com/andrexduarte/3bits-boilerplate.git
@@ -1592,7 +1593,7 @@ Search results:
     angular-bootstrap-form-validation https://github.com/assisrafael/bower-angular-bootstrap-form-validation.git
     angular-bootstrap-grid https://github.com/Kjuib/angular-bootstrap-grid.git
     angular-bootstrap-grid-list-toggle https://github.com/seblucas/angular-bootstrap-grid-list-toggle.git
-    angular-bootstrap-grid-tree https://github.com/okigan/tree-grid-directive.git
+    angular-bootstrap-grid-tree https://github.com/khan4019/tree-grid-directive.git
     angular-bootstrap-gsdatetimepicker https://github.com/sebastianha/angular-bootstrap-gsdatetimepicker.git
     angular-bootstrap-gsdialogs https://github.com/sebastianha/angular-bootstrap-gsdialogs.git
     angular-bootstrap-gsresettableinput https://github.com/sebastianha/angular-bootstrap-gsresettableinput.git
@@ -1699,6 +1700,7 @@ Search results:
     angular-bui git://192.168.0.131/angular-bui.git
     angular-builder https://github.com/trashhalo/angular-builder.git
     angular-builder-users https://github.com/builder-io/angular-builder-users.git
+    angular-built https://github.com/Cherinho/angular-built.git
     angular-bullet https://github.com/munkychop/angular-bullet.git
     angular-burn https://github.com/ajoslin/angular-burn.git
     angular-burt-analytics https://github.com/deepakshrma/angular-burt-analytics.git
@@ -2722,6 +2724,7 @@ Search results:
     angular-forminput https://github.com/jackrabbitsgroup/angular-forminput.git
     angular-form-lib https://github.com/Odecee/angular-form-lib.git
     angular-formly https://github.com/formly-js/angular-formly.git
+    angular-formly-bootstrap-material https://github.com/tilwinjoy/angular-formly-bootstrap-material.git
     angular-formly-dynamic-interpolate-symbols https://github.com/formly-js/angular-formly-dynamic-interpolate-symbols.git
     angular-formly-loader https://github.com/timsvoice/formly-loader.git
     angular-formly-lumx-1.0.0 https://github.com/wh0lve/angular-formly-templates-lumx.git
@@ -3565,6 +3568,7 @@ Search results:
     angular-ladda-lw https://github.com/aeharding/angular-ladda-lw.git
     angular-ladda-studygps https://github.com/StudyGPS-Company/angular-ladda-studygps.git
     angular-ladda-with-success https://github.com/kevinsproles/angular-ladda.git
+    angular-language https://github.com/Meldinoor/angular-language.git
     angular-language-module https://github.com/igorizr1/angular-language-module.git
     angular-language-picker https://github.com/k88hudson/angular-language-picker.git
     angular-languagetool https://github.com/ControlExpert/angular-languagetool.git
@@ -4284,6 +4288,7 @@ Search results:
     angular-p2p-lending-utils https://github.com/PeachScript/angular-p2p-lending-utils.git
     angular-paching https://github.com/pachingio/angular-paching.git
     angular-pack https://github.com/thelordofthetimes/angular.git
+    angular-package https://gitlab.com/Andrii_zp/angular-package.git
     angular-package-loader https://github.com/jdpedrie/angular-package-loader.git
     angular-packery https://github.com/SunGard-Labs/angular-packery.git
     angular-pagedown https://github.com/kennyki/angular-pagedown.git
@@ -4384,6 +4389,7 @@ Search results:
     angular-persian-tools https://github.com/mohebifar/angular-persian-tools.git
     angular-persona https://github.com/matteosuppo/angular-persona.git
     angular-persona-jwt https://github.com/Charl---/angular-persona-jwt.git
+    angular-perspective https://github.com/Horsetoast/angular-perspective.git
     angular-phoenix https://github.com/MikaAK/angular-phoenix.git
     angular-phone-country-prefix https://github.com/dashawk/angular-phone-country-prefix.git
     angular-phonegap https://github.com/mstaessen/bower-angular-phonegap.git
@@ -5544,6 +5550,7 @@ Search results:
     angular-three https://github.com/jessertaylor/angular-three.git
     angular-threejs https://github.com/3DGenomes/angular-threejs.git
     angular-threenorama https://github.com/Goriar/Threenorama.git
+    angular-threesixty-slider https://github.com/Regoluna/angular-threesixty-slider.git
     angular-thrift https://github.com/davearata/angular-thrift.git
     angular-thrift-service https://github.com/meshkorea/angular-thrift-service.git
     angular-throttle https://github.com/BaggersIO/angular.throttle.git
@@ -5887,6 +5894,7 @@ Search results:
     angular-ui-router-modal https://github.com/kasperlewau/angular-ui-router-modal.git
     angular-ui-router-previous https://github.com/tamaspap/angular-ui-router-previous.git
     angular-ui-router.redirect https://github.com/leonuh/ui-router.redirect.git
+    angular-ui-router-resolve-error https://github.com/nonplus/angular-ui-router-resolve-error.git
     angular-ui-router.statehelper https://github.com/marklagendijk/ui-router.stateHelper.git
     angular-ui-router.stateHelper https://github.com/marklagendijk/ui-router.stateHelper.git
     angular-ui-router-state-history https://github.com/RedFroggy/angular-ui-router-state-history.git
@@ -5917,6 +5925,8 @@ Search results:
     angular-ui-swiper https://github.com/nebulr/ui-swiper.git
     angular-ui-switch https://github.com/xpepermint/angular-ui-switch.git
     angular-ui-switch2 https://github.com/kpytang/angular-ui-switch.git
+    angular-ui-switch3 https://github.com/swlee60/angular-ui-switch.git
+    angular-ui-switch-swlee https://github.com/swlee60/angular-ui-switch.git
     angular-ui-switch-with-disable https://github.com/zhangtiny123/angular-ui-switch.git
     angular-ui-table-view https://github.com/mallzee/angular-ui-table-view.git
     angular-ui-tabs https://github.com/dimapod/angular-ui-tabs.git
@@ -9264,6 +9274,7 @@ Search results:
     bespoke-vcr https://github.com/markdalgleish/bespoke-vcr.git
     bessembinders-tools https://github.com/bbessembinders/bessembinders-tools.git
     bestis-ng-ckeditor https://github.com/bestis/ng-ckeditor.git
+    betko-softap-setup https://github.com/betko/softap-setup-js.git
     betsol-angular-router https://github.com/betsol/angular-router.git
     betsol-js-router https://github.com/betsol/js-router.git
     betsol-load-on-demand https://github.com/betsol/load-on-demand.git
@@ -10237,6 +10248,7 @@ Search results:
     bootstrap-fedora https://github.com/ralphbean/bootstrap-fedora.git
     bootstrap-file https://github.com/joelcoxokc/bootstrap-file.git
     bootstrap-file-dialog https://github.com/Saluev/bootstrap-file-dialog.git
+    bootstrap-file-field https://github.com/ajaxray/bootstrap-file-field.git
     bootstrap-fileinput https://github.com/kartik-v/bootstrap-fileinput.git
     bootstrap-file-input https://github.com/grevory/bootstrap-file-input.git
     bootstrap-fileinput-exif https://github.com/raphaelcoder/bootstrap-fileinput-exif.git
@@ -10585,6 +10597,7 @@ Search results:
     bootstrapValidator https://github.com/nghuuphuoc/bootstrapvalidator.git
     bootstrap-validator_custom https://github.com/oytunyuksel/bootstrap-validator_custom.git
     bootstrap-variables https://github.com/shoehorn/variables.git
+    bootstrap-variables-commented https://github.com/vader66/bootstrap-variables.git
     bootstrap-vertical-tabs https://github.com/dbtek/bootstrap-vertical-tabs.git
     bootstrap-video-carousel https://github.com/danbhala/bootstrap-video-carousel.git
     bootstrap-viewport-detect https://github.com/DavideMontersino/bootstrap-viewport-detect.git
@@ -11025,6 +11038,7 @@ Search results:
     bpmn-js-cli https://github.com/bpmn-io/bpmn-js-cli.git
     bpmn-js-examples https://github.com/bpmn-io/bpmn-js-examples.git
     bpmn-questionnaire https://github.com/PHILIPPFROMME/bpmn-questionnaire.git
+    bp-modal https://github.com/bpsingh1982/bp-bootstrap-modal.git
     bpopup https://github.com/dinbror/bpopup.git
     bqpage https://github.com/bquarks/page.js.git
     bq-polyter https://github.com/bquarks/polyter.git
@@ -11129,6 +11143,7 @@ Search results:
     breezy https://github.com/daffl/breezy.git
     brehm-tools https://github.com/brehma/brehm-bower_util.git
     brei-favorites https://github.com/BarkleyREI/breilabs_favorites.git
+    brent-test https://github.com/blthiewes/BrentThiewes.git
     breve-js https://github.com/barbaracassani/brevejs.git
     brevity-sass https://github.com/dustindowell22/brevity-sass.git
     brewerydb-node https://github.com/ronandi/brewerydb-node.git
@@ -11398,6 +11413,7 @@ Search results:
     bt-cal-date https://github.com/tbeattysk/bt-cal-date.git
     bt-cal-detail https://github.com/tbeattysk/bt-cal-detail.git
     bt-cal-grid https://github.com/tbeattysk/bt-cal-grid.git
+    btc-top-bar https://github.com/BTCMedia/btc-top-bar.git
     btn.css https://github.com/chantastic/btn.css.git
     btns.css https://github.com/josephbadran/btns.css.git
     btn-social-css https://github.com/alfa30/btn-social-css.git
@@ -11869,6 +11885,7 @@ Search results:
     carddav.js https://github.com/jfroffice/carddav.js.git
     card-deck https://github.com/marcus7777/card-deck.git
     card-display https://github.com/marcus7777/card-display.git
+    card-flip https://github.com/giovannyquin/flippy.git
     cardigan https://github.com/interval-braining/cardigan.git
     cardinal https://github.com/cbracco/cardinal.git
     cardinal-spline https://github.com/stbaer/cardinal-spline.git
@@ -13253,6 +13270,7 @@ Search results:
     colr https://github.com/stayradiated/colr.git
     colresizable https://github.com/Falci/colResizable.git
     col-resizable https://github.com/alvaro-prieto/colResizable.git
+    colresizable-egis https://github.com/djhvscf/colResizable-Egis.git
     col-resizable-jlopezh https://github.com/jlopezh/colResizable.git
     col-resizable-optier https://github.com/nadavelyashiv/colResizable.git
     coltjs https://github.com/Fluidbyte/ColtJS.git
@@ -13938,6 +13956,7 @@ Search results:
     cpf_cnpj https://github.com/fnando/cpf_cnpj.js.git
     cp-icons https://github.com/cpinnix/cp-icons.git
     cp-navigation-stack https://github.com/cpinnix/cp-navigation-stack.git
+    cp-nestedSortable https://github.com/craigpotter/nestedSortable.git
     cpp-ui-deprecated https://github.com/pvblicltd/cpp-ui-deprecated.git
     cpr https://github.com/will3/cpr.git
     CProgress https://github.com/ar2oor/CProgress.git
@@ -15799,6 +15818,7 @@ Search results:
     discuss.js https://github.com/leadhead9/discuss.js.git
     disdo https://github.com/volkovasystems/disdo.git
     disemvowel https://github.com/clblamires/disemvowel.git
+    disk-browser https://github.com/ershwetabansal/disk-browser.git
     dismissable-js https://github.com/juancamiloestela/Dismissable.js.git
     dispatch https://github.com/olav/dispatch.js.git
     dispatcher https://github.com/fnando/dispatcher-js.git
@@ -16504,6 +16524,7 @@ Search results:
     duratiform https://github.com/gamtiq/duratiform.git
     durationjs https://github.com/khepin/durationjs.git
     duration.js https://github.com/icholy/Duration.js.git
+    durelia https://github.com/josundt/Durelia.git
     durusans-googlefont https://github.com/google-fonts-bower/durusans-bower.git
     dust-ajaxform https://github.com/dustcollective/dust-ajaxForm.git
     dust-backbone-helpers https://github.com/bfanger/dust.dom.js.git
@@ -16528,6 +16549,7 @@ Search results:
     dvhb-calendar https://github.com/dvhbru/dvhb-calendar.git
     dvhb-metro https://github.com/dvhbru/dvhb-metro.git
     dvhb-phone-highlight https://github.com/dvhbru/dvhb-phone-hightlight.git
+    dvhbruk https://github.com/dvhbru/dvhb-metro.git
     dvhClickToEdit https://github.com/daanvanhulst/dvhClickOnEdit.git
     dvp-notificationclientsdk https://github.com/DuoSoftware/DVP-NotificationClientSDK.git
     dv.xlsxToJson https://github.com/dvelasquez/dv.xlsxToJson.git
@@ -16601,6 +16623,7 @@ Search results:
     dz-angular-redactor https://github.com/MrZaYaC/dz-angular-redactor.git
     dz-assets https://github.com/digitalz4k/dz-assets.git
     dz-foundation https://github.com/digitalz4k/dz-foundation.git
+    dzieuo.js https://github.com/Alanik/dzieuo.js.git
     dz-input-time https://github.com/dlukez/dz-input-time.git
     dz-ng-region-select https://github.com/YinChangSheng/dz-ng-region-select.git
     e164-phones-countries https://github.com/geneh/e164-phones-countries.git
@@ -17757,6 +17780,7 @@ Search results:
     eshake https://github.com/EthanZhong/eshake.git
     esijs https://github.com/lyc-chengzi/esiJsLib.git
     esis-cookie-alert https://github.com/EsisSrL/CookieLawAlert.git
+    eskimo https://github.com/yivo/eskimo.git
     esl https://github.com/ecomfe/esl.git
     eslevels https://github.com/mazurov/eslevels.git
     esm https://github.com/AlexeyKashintsev/stateMashine.git
@@ -18114,6 +18138,7 @@ Search results:
     expressDemo https://github.com/wisepound/expressDemo.git
     expressian https://github.com/DevelopSmith/globe-zones.git
     expression.js https://github.com/gafish/expression.js.git
+    expressjs https://github.com/expressjs/express.git
     expresso https://github.com/khanage/expressojs.git
     express-uri-template https://github.com/aslakhellesoy/express-uri-template.git
     express-useragent https://github.com/biggora/express-useragent.git
@@ -20867,6 +20892,7 @@ Search results:
     ginger-grid https://github.com/erwstout/ginger.git
     g-input https://github.com/guarajs/g-input.git
     gioc https://github.com/goliatone/gioc.git
+    gio-flippy https://github.com/giovannyquin/flippy.git
     gion https://github.com/KENJU/gion.git
     gion-select2 https://github.com/gion/select2.git
     gion-ui-select2 https://github.com/gion/ui-select2.git
@@ -23150,6 +23176,7 @@ Search results:
     ig-charlimit https://github.com/igreulich/angular-charlimit.git
     ig-constrain https://github.com/rnarius/ig-constrain.git
     igc-ops-ko-components https://github.com/oisinmacgiollachuda/igc-operators-ko-components.git
+    igcrouter https://github.com/iGamingCloud/igcrouter.git
     iggy-file-uploader https://github.com/hookdump/iggy-file-uploader.git
     iggy-ui-tree https://github.com/hookdump/iggy-ui-tree.git
     iginite-ui git://61.99.20.151/wc/igniteui.git
@@ -23532,6 +23559,7 @@ Search results:
     inherits https://github.com/fnobi/inherits.git
     in-house https://github.com/volitiontl/in-house.git
     inika-googlefont https://github.com/google-fonts-bower/inika-bower.git
+    init-bower-starter https://github.com/szaranger/init-bower-starter.git
     init.css https://github.com/timfayz/init.css.git
     initDom https://github.com/borovin/initDom.git
     initialize-css https://github.com/jeroenoomsNL/initialize-css.git
@@ -24239,6 +24267,7 @@ Search results:
     iron-range-behavior https://github.com/PolymerElements/iron-range-behavior.git
     iron-resizable-behavior https://github.com/PolymerElements/iron-resizable-behavior.git
     iron-routes https://github.com/daluge/iron-routes.git
+    iron-scroll-spy https://github.com/Zecat/iron-scroll-spy.git
     iron-scroll-target-behavior https://github.com/PolymerElements/iron-scroll-target-behavior.git
     iron-scroll-threshold https://github.com/Decateron/iron-scroll-threshold.git
     iron-selector https://github.com/PolymerElements/iron-selector.git
@@ -24428,6 +24457,7 @@ Search results:
     is-string-int https://github.com/shinnn/is-string-int.js.git
     is-subchars https://github.com/miguelmota/is-subchars.git
     issuemd https://github.com/issuemd/issuemd.git
+    issue-zero https://github.com/angular/issue-zero.git
     is-supported-regexp-flag https://github.com/sindresorhus/is-supported-regexp-flag.git
     is-svg https://github.com/sindresorhus/is-svg.git
     is-swf https://github.com/kevva/is-swf.git
@@ -25053,6 +25083,8 @@ Search results:
     jLiveTime https://github.com/benjamine/jLiveTime.git
     jl.js https://github.com/jlyu/l.js.git
     jloadingmask https://github.com/XadillaX/jquery.loadingMask.git
+    jlopezh-angular-bootstrap-datetimepicker-directive https://github.com/jlopezh/angular-bootstrap-datetimepicker-directive.git
+    jlopezh-bootstrap-datetimepicker https://github.com/jlopezh/bootstrap-datetimepicker.git
     jlp_bower_test https://github.com/jinglupeng/bower_test.git
     jl-tether https://github.com/jeffling/angular-jl-tether.git
     jm-angular-img-cropper https://github.com/jm-root/jm-angular-img-cropper.git
@@ -26644,6 +26676,7 @@ Search results:
     jquery-mask-password https://github.com/MathieuLoutre/jquery-mask-password.git
     jquery-mask-plugin https://github.com/igorescobar/jQuery-Mask-Plugin.git
     jQuery-Mask-Plugin https://github.com/igorescobar/jQuery-Mask-Plugin.git
+    Jquery-Mask-Plugin https://github.com/igorescobar/jQuery-Mask-Plugin.git
     jquery.maskx https://github.com/wbruno/jquery.maskx.git
     jquery-masonry https://github.com/desandro/masonry.git
     jquery.masonry https://github.com/tysoncadenhead/masonry.git
@@ -27489,6 +27522,7 @@ Search results:
     jquery-steps https://github.com/rstaib/jquery-steps.git
     jquery.steps https://github.com/rstaib/jquery-steps.git
     jquery-steps-fixed https://github.com/sjke/jquery-steps.git
+    jquery-steps-jariaz https://github.com/jariaz/jquery-steps.git
     jquery-steps-wizardstep https://github.com/essivision/jquery-steps-wizardstep.git
     jQuery-Stickem https://github.com/davist11/jQuery-Stickem.git
     jquery-stickit https://github.com/emn178/jquery-stickit.git
@@ -28091,6 +28125,7 @@ Search results:
     JS3 https://github.com/vikasburman/js3.git
     js-360 https://github.com/caedes/js-360.git
     js-a11y-accordion https://github.com/wooxo/js-a11y-accordion.git
+    js-acl https://github.com/StyleT/js-acl.git
     js-ajax-error-collector https://github.com/moneypark/js-ajax-error-collector.git
     js_algoritm https://github.com/ZhouHansen/js_algorithm.git
     js-angular-datepicker https://github.com/jeremysnyder/angular-datepicker.git
@@ -28126,6 +28161,7 @@ Search results:
     jsbench https://github.com/zensh/jsbench.git
     jsbezier https://github.com/jsplumb/jsBezier.git
     js-binary-schema-parser https://github.com/matt-way/jsBinarySchemaParser.git
+    js-binarysearch https://github.com/amgadfahmi/js-binarysearch.git
     jsblackbelt https://github.com/jsBlackBelt/jsBlackBelt.git
     jsbn https://github.com/stevedomin/jsbn.git
     Jsbn https://github.com/hoangductho/jsbn.git
@@ -28887,6 +28923,8 @@ Search results:
     jt.timepicker-fork https://github.com/mallowigi/jquery-timepicker.git
     jtunderscore https://github.com/vicanso/jtunderscore.git
     jt_underscore https://github.com/vicanso/jt_underscore.git
+    jucardi-excel-builder https://github.com/jucardi/excel-builder.js.git
+    jucardi-excel-js https://github.com/jucardi/excel-builder-js.git
     juc-prototype-extensions-js https://github.com/jucardi/prototype-extensions-js.git
     judgejs https://github.com/hawx1993/judge.git
     judson-googlefont https://github.com/google-fonts-bower/judson-bower.git
@@ -29008,6 +29046,7 @@ Search results:
     jwtstore https://github.com/shelv-es/jwtstore.git
     jwysiwyg https://github.com/akzhan/jwysiwyg.git
     jx-am-sidenav https://github.com/Jhegs/jx-angular-material-sidenav.git
+    jx-datetimepicker https://github.com/Jhegs/jx-angular-material-datetimepicker.git
     jxl-paper-date-picker https://github.com/JesterXL/jxl-paper-date-picker.git
     jxon https://github.com/tyrasd/jxon.git
     jyoko https://github.com/kamataryo/jyoko.git
@@ -29443,6 +29482,7 @@ Search results:
     kmccullough-angular-resource https://github.com/kmccullough/bower-angular-resource.git
     kmccullough-ui-mask https://github.com/kmccullough/ui-mask.git
     kmeans https://github.com/miguelmota/k-means.git
+    kmedia.page https://github.com/kalicki2k/kmedia.page.git
     kmlfeatures https://github.com/albertsun/gmap-features.git
     kmp https://github.com/miguelmota/knuth-morris-pratt.git
     knacss https://github.com/raphaelgoetter/KNACSS.git
@@ -29637,6 +29677,7 @@ Search results:
     knowledge-share https://github.com/AntonyDavis/knowledge-share.git
     known https://github.com/sindresorhus/known.git
     knplupload https://github.com/sawyer2140/knplupload.git
+    knppaginator-ajax https://github.com/nacholibre/knppaginator-ajax.git
     KNreiseAPI https://github.com/knreise/KNReiseAPI.git
     knucklebone https://github.com/eaton11/knucklebone.js.git
     knuckles https://github.com/lelandrichardson/knuckles.js.git
@@ -30240,6 +30281,7 @@ Search results:
     lazy-pages https://github.com/atotic/lazy-pages.git
     lazy-postscribe https://github.com/hpbuniat/lazy-postscribe.git
     lazysizes https://github.com/aFarkas/lazysizes.git
+    lazy-template https://github.com/mgibas/lazy-template.git
     lazy-test https://github.com/bahmutov/lazy-test.git
     lazytube https://github.com/soenkekluth/lazytube.git
     lazyyt https://github.com/Epick362/lazyYT.git
@@ -32785,6 +32827,7 @@ Search results:
     microjungle https://github.com/deepsweet/microjungle.git
     microlib-notify https://github.com/VizuaaLOG/microlib-notify.git
     microlib-tabs https://github.com/VizuaaLOG/microlib-tabs.git
+    microlight https://github.com/asvd/microlight.git
     microload https://github.com/skid/microload.git
     microm https://github.com/zzarcon/microm.git
     micro-mediator https://github.com/michealparks/micro-mediator.git
@@ -35668,6 +35711,7 @@ Search results:
     ng-parallax https://github.com/oblador/angular-parallax.git
     ng-parse https://github.com/leonardfactory/ng-parse.git
     ng-passcheck https://github.com/scniro/ng-passcheck.git
+    ng-password-generator https://github.com/AitorRodriguez990/ng-password-generator.git
     ng-password-meter https://github.com/Cykra/ng-password-meter.git
     ng-password-strength https://github.com/subarroca/ng-password-strength.git
     ng-password-strength-15 https://github.com/tverdohleb/ng-password-strength.git
@@ -35728,6 +35772,7 @@ Search results:
     ng-pouch-mirror https://github.com/colinskow/ng-pouch-mirror-bower.git
     ng-pourover https://github.com/Wildhoney/ngPourOver.git
     ng-praytimes https://github.com/mmahalwy/ngPrayTimes.git
+    ng-prettify-file-input https://github.com/perrosen/ng-prettify-file-input.git
     ng-pretty-currency https://github.com/sjlu/ng-pretty-currency.git
     ng-prettyjson https://github.com/darul75/ng-prettyjson.git
     ng-pretty-xml https://github.com/v12/angular-pretty-xml.git
@@ -35770,6 +35815,7 @@ Search results:
     ngquill https://github.com/KillerCodeMonkey/ngQuill.git
     ng-quill https://github.com/KillerCodeMonkey/ngQuill.git
     ngRadialGauge https://github.com/stherrienaspnet/ngRadialGauge.git
+    ngRadio https://github.com/fadifannoun/ngRadio.git
     ng-rails-csrf https://github.com/ajgon/ng-rails-csrf.git
     ng-rails-ujs https://github.com/ysbaddaden/ng-rails-ujs.git
     n-gram https://github.com/wooorm/n-gram.git
@@ -36988,6 +37034,7 @@ Search results:
     o_0 https://github.com/distri/observable.git
     o2bb https://github.com/digitalilusion/o2bb.git
     o2-breakpoints https://github.com/o2web/breakpoints.git
+    o2-bxslider https://github.com/o2web/bxslider-4.git
     o2-flexslider https://github.com/o2web/FlexSlider.git
     o2.js https://github.com/v0lkan/o2.js.git
     o2-parallax https://github.com/o2web/parallax.git
@@ -38140,6 +38187,7 @@ Search results:
     parallel-delay https://github.com/didanurwanda/parallel-delay.git
     paralleljs https://github.com/adambom/parallel.js.git
     paralleljs-copy https://github.com/dariusriggins/parallel.js.git
+    parallux https://github.com/tomsarduy/parallux.git
     parally https://github.com/davismiculis/parally.git
     paramalama https://github.com/kitajchuk/paramalama.git
     paramatas https://github.com/patrickvalle/paramatas.git
@@ -40148,6 +40196,7 @@ Search results:
     puppets-switch https://github.com/Puppets/puppets-switch.git
     puppy-syndrome https://github.com/twokul/puppy-syndrome.git
     pure https://github.com/yui/pure-release.git
+    pure-angular-advanced-searchbox https://github.com/tybeck/pure-angular-advanced-searchbox.git
     pure-angular-demo https://github.com/hefangshi/pure-angular-demo.git
     pure-built https://github.com/jjt/pure-built.git
     purecloud https://github.com/MyPureCloud/purecloud_api_sdk_javascript.git
@@ -40193,6 +40242,7 @@ Search results:
     purescript-ajax https://github.com/joneshf/purescript-ajax.git
     purescript-alert https://github.com/cdepillabout/purescript-alert.git
     purescript-algebra https://github.com/joneshf/purescript-algebra.git
+    purescript-almost https://github.com/TylorS/Almost.git
     purescript-angle https://github.com/joneshf/purescript-angle.git
     purescript-angular https://github.com/purescript-contrib/purescript-angular.git
     purescript-ansi https://github.com/hdgarrood/purescript-ansi.git
@@ -40251,6 +40301,7 @@ Search results:
     purescript-coroutines https://github.com/paf31/purescript-coroutines.git
     purescript-css https://github.com/slamdata/purescript-css.git
     purescript-csv-rk https://github.com/robkuz/purescript-csv.git
+    purescript-cycle https://github.com/TylorS/purescript-cycle.git
     purescript-d3 https://github.com/pelotom/purescript-d3.git
     purescript-data-default https://github.com/dancingrobot84/purescript-data-default.git
     purescript-datetime https://github.com/purescript/purescript-datetime.git
@@ -40602,6 +40653,7 @@ Search results:
     purr https://github.com/sprottenwels/Purr.git
     purr-polymer https://github.com/Sprottenwels/purr-polymer.git
     purry https://github.com/jasonkuhrt/purry.git
+    purscript-almost https://github.com/TylorS/almost.git
     purscript-enchantjs https://github.com/algas/purescript-enchantjs.git
     pushable-ember https://github.com/matteodepalo/pushable-ember.git
     pusher https://github.com/pusher/pusher-js.git
@@ -40642,6 +40694,7 @@ Search results:
     pvectorjs https://github.com/MAKIO135/pvectorjs.git
     pviz https://github.com/Genentech/pviz.git
     pv.js https://github.com/openjavascript/pv.js.git
+    pv-visualize-range https://github.com/FedPete/pv-visualize-range.git
     pwallrich-angular-multiselect https://github.com/pwallrich/angular-multiselect.git
     pw-audio-playlist https://github.com/adelarosab/pw-audio-playlist.git
     pwContactForm https://github.com/PingadoWeb/pwContactForm.git
@@ -41205,6 +41258,7 @@ Search results:
     radjs-scrollview https://github.com/Rapid-Application-Development-JS/ScrollView.git
     radley-googlefont https://github.com/google-fonts-bower/radley-bower.git
     radman-css-playing-cards https://github.com/radman/CSS-Playing-Cards.git
+    rafael https://github.com/trezy/rafael.git
     raf-core https://github.com/alexanderGugel/raf-core.git
     raffaello-fullcalendar https://github.com/Raffaello/fullcalendar.git
     raf.js https://github.com/ngryman/raf.js.git
@@ -42057,6 +42111,7 @@ Search results:
     rekord-debug https://github.com/Rekord/rekord-debug.git
     rekord-firebase https://github.com/Rekord/rekord-firebase.git
     rekord-jquery https://github.com/Rekord/rekord-jquery.git
+    rekord-migrations https://github.com/Rekord/rekord-migrations.git
     rekord-pouchdb https://github.com/Rekord/rekord-pouchdb.git
     rekord-pubsub https://github.com/Rekord/rekord-pubsub.git
     rekord-storkjs https://github.com/Rekord/rekord-storkjs.git
@@ -43109,6 +43164,7 @@ Search results:
     rtl_heatmap https://github.com/donothingloop/rtl_heatmap.git
     rtl-jquery-mobile https://github.com/ouadi/rtl-jquery-mobile.git
     RTLTextarea https://github.com/twitter/RTLTextarea.git
+    rtmp-streamer https://github.com/chxj1992/rtmp-streamer.git
     rtr https://github.com/jeffschwartz/rtr.git
     rtree https://github.com/leaflet-extras/RTree.git
     rtrn https://github.com/pluma/rtrn.git
@@ -43493,6 +43549,7 @@ Search results:
     sass-looper https://github.com/mintuz/sass-looper.git
     sass-magic https://github.com/chussenot/sass-magic.git
     sass-material-colors https://github.com/minusfive/sass-material-colors.git
+    sass-material-design-colors https://github.com/davi-mbatista/sass-material-design-colors.git
     sass-material-design-for-bootstrap https://github.com/band-x-media/SASS-Material-Design-for-Bootstrap.git
     sass-md-components https://github.com/ellipticaljs/sass-md-components.git
     sass-mediaqueries https://github.com/paranoida/sass-mediaqueries.git
@@ -43580,6 +43637,7 @@ Search results:
     sassy-swatches https://github.com/derek-skinner/SassySwatches.git
     sassytools https://github.com/SassyFramework/SassyTools.git
     sassy-validation https://github.com/SassySuit/sassy-validation.git
+    sass-z-indexer https://github.com/davi-mbatista/sass-z-indexer.git
     sass-zoom-icons https://github.com/ellipticaljs/sass-zoom-icons.git
     sastic https://github.com/DonQuality/sastic.git
     satc-angularjs https://github.com/DesenvolvimentoSATC/satc-libs.git
@@ -44060,6 +44118,7 @@ Search results:
     seamless-immutable-mergers https://github.com/crudh/seamless-immutable-mergers.git
     seamless.js https://github.com/travist/seamless.js.git
     seamless-polyfill https://github.com/ornj/seamless-polyfill.git
+    sean-bower https://szaranger@bitbucket.org/szaranger/sean-bower.git
     seaofclouds.tweet https://github.com/seaofclouds/tweet.git
     searchable https://github.com/PhilippeRoy/Searchable.git
     search-box https://github.com/Pablo-Rodriguez/search-box.git
@@ -45014,6 +45073,7 @@ Search results:
     simple-login-nav-button https://github.com/vision89/simple-login-nav-button.git
     simple-lru https://github.com/smagch/simple-lru.git
     simple-map-d3 https://github.com/MinnPost/simple-map-d3.git
+    simple-markdown https://github.com/Khan/simple-markdown.git
     simple-masonry https://github.com/christianheyn/simple-masonry.js.git
     simple-material-table https://github.com/wintersandroid/simple-material-table.git
     simple-matrix https://github.com/geastwood/matrix.git
@@ -45146,6 +45206,7 @@ Search results:
     simple-xhr-uploader https://github.com/cihadtekin/simple-xhr-uploader.git
     simplexn https://github.com/cvdlab/simplexn.git
     simplexnoise.js https://github.com/fauxnoir/fast-simplex-noise-js.git
+    simplezoom.js https://github.com/chinchang/simplezoom.js.git
     simplicio-tools https://github.com/jpanagiotidis/simplicio-tools.git
     simpliciti https://github.com/weagle08/SimpliciTi.git
     simplicity https://github.com/bendetat/SimplicityJS.git
@@ -46951,6 +47012,7 @@ Search results:
     stylish-scss https://github.com/internetsistemas/stylish.git
     stylist https://github.com/koojy/stylist.git
     stylistic https://github.com/MarginZero/Stylistic.git
+    stylize-common https://github.com/redcatphp/stylize-common.git
     stylmethods https://github.com/soyjavi/stylmethods.git
     stylo https://github.com/haykokoryun/stylo.git
     stylper https://github.com/raqystyle/stylper.git
@@ -48236,6 +48298,7 @@ Search results:
     thaanKeyboard https://github.com/ajaaibu/thaanaKeyboard.git
     thabit-googlefont https://github.com/google-fonts-bower/thabit-bower.git
     thaihome-dependencies https://github.com/Szili14/thaihome-dependencies.git
+    thaihome-html2canvas https://github.com/SynsoftDev/thaihome-html2canvas.git
     thai-timeline https://github.com/doanthai96/timeline.git
     thanks-for-reading https://github.com/leopuleo/thanks-for-reading.git
     tharlon-googlefont https://github.com/google-fonts-bower/tharlon-bower.git
@@ -49297,6 +49360,7 @@ Search results:
     treehouse https://github.com/markevans/treehouse.git
     treehouse-router https://github.com/markevans/treehouse-router.git
     tree-images https://github.com/treeframework/base.images.git
+    tree-iterate https://github.com/arupex/TreeIterate.git
     treejs https://github.com/Wizek/Tree.git
     tree.js https://github.com/marmelab/tree.js.git
     Tree.js https://github.com/labsvisual/tree.js.git
@@ -49615,6 +49679,7 @@ Search results:
     tupi2 https://github.com/ABS-org/tupi-v2.git
     tuple https://github.com/Wolfy87/tuple.git
     turbine.js https://github.com/wmbenedetto/turbine.js.git
+    turbohead https://github.com/yivo/turbohead.git
     turbolinks-modules https://github.com/ilucin/turbolinks-modules.git
     TurboTurtle https://BarretoDiego@bitbucket.org/maincreativesolutions/turbo-turtle.git
     turer https://github.com/niclashoyer/turer.git
@@ -50560,6 +50625,7 @@ Search results:
     utility-dialog https://github.com/2point0/utility-dialog.git
     utility-helper.php https://github.com/faacsilva/utility_helper.git
     utilityjs https://github.com/faressoft/utilityjs.git
+    utilitySet https://github.com/vaske/utilitySet.git
     utiljs https://github.com/bogdan-bugarschi/util.js.git
     util.js https://github.com/kbond/util.js.git
     utils https://github.com/berdichev/utils.git
@@ -50918,6 +50984,7 @@ Search results:
     verifyjs https://github.com/jpillora/verifyjs.git
     Verimail.js https://github.com/chilijung/Verimail.js.git
     verimail-repack https://github.com/MagicIndustries/verimail-repack.git
+    verja https://github.com/businessinsider/verja.git
     verlet https://github.com/subprotocol/verlet-js.git
     vermin-vibes https://github.com/framp/vermin-vibes.git
     vern-angular-admin https://github.com/typefoo/vern-angular-admin.git
@@ -53037,6 +53104,7 @@ Search results:
     yamm3 https://github.com/geedmo/yamm3.git
     yamori.js https://github.com/taikiken/yamori.js.git
     yamvish https://github.com/nomocas/yamvish.git
+    yandex-metrika-initializer https://github.com/yivo/yandex-metrika-initializer.git
     yanghansoft-swift https://git.oschina.net/yangyng/swift.git
     yan.js https://github.com/wong2/yan.js.git
     yanonekaffeesatz-googlefont https://github.com/google-fonts-bower/yanonekaffeesatz-bower.git
@@ -53250,6 +53318,7 @@ Search results:
     yucca-angular-widgets https://github.com/csipiemonte/yucca-angular-widgets.git
     yue.less https://github.com/uexim/yue.less.git
     YuezUrl https://github.com/zgs225/YuezUrl.git
+    yu-helpers https://github.com/lutaiphong/yu-helpers.git
     yui https://github.com/yui/yui3.git
     yui3 https://github.com/yui/yui3.git
     yui3-contextual-reset https://github.com/thefabulousdev/yui3-contextual-reset.git

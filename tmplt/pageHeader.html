@@ -1,29 +1,29 @@
 <!DOCTYPE html>
  <HTML>
   <HEAD>
-   <META charset="UTF-8"                                                                            					>
-   <META http-equiv="X-UA-Compatible" 	content="IE=edge"						    				>
+   <META charset="UTF-8"                                                                                                                >
+   <META http-equiv="X-UA-Compatible"   content="IE=edge"                                                                               >
 
-   <META name="description" 		content="Search for Bower packages. Bower lists many packages that can be used on web pages."	>
-   <META name="author" 			content="cloned2k16"										>
+   <META name="description"             content="Search for Bower packages. Bower lists many packages that can be used on web pages."   >
+   <META name="author"                  content="cloned2k16"                                                                            >
 
-   <META property="og:title" 		content="Search @ Bower"									>
-   <META property="og:type" 		content="website"										>
-   <META property="og:url" 		content="http://aws0me.tk/search/"								>
-   <META property="og:image" 		content="http://bower.io/img/bower-logo.png"							>
-   	
+   <META property="og:title"            content="Search @ Bower"                                                                        >
+   <META property="og:type"             content="website"                                                                               >
+   <META property="og:url"              content="http://aws0me.tk/search/"                                                              >
+   <META property="og:image"            content="http://bower.io/img/bower-logo.png"                                                    >
+
    <SCRIPT  src="../doc_ready/index.js"         type="text/javascript"                              ></SCRIPT>
-   
+
    <LINK    href="../css/main.css"              type="text/css"         rel="stylesheet"    async   >
    <SCRIPT                                      type="text/javascript"                              ><!--
     var log     = function  ()      { Function.apply.call(console.log,console,arguments);       }
     ,   byId    = function  (id)    { return document.getElementById(id);                       }
-    
+
     _onDocReady ( function  ()      { log('DOM is Ready');
         var f = byId('f1')
         ,   q = byId('q1')
         ;
-        
+
         f.onsubmit= function (e) { log('submit:',e);
          var uri    =   e.target.baseURI
          ,   what   =   q.value
@@ -31,20 +31,23 @@
          ;
          f1.action=url;
          return what.length > 0 ? true : false;
-        };    
-    });    
+        };
+    });
     // -->
-  </SCRIPT> 
+  </SCRIPT>
    <TITLE>Bower Search</TITLE>
- </HEAD> 
+ </HEAD>
   <BODY>
+   <A href="https://github.com/cloned2k16/search-at-bower"><IMG style="position: absolute; top: 0; right: 0; border: 0;" 
+                                                                src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" 
+                                                                alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></A>
    <DIV id=header>
     <DIV>
      <A href="http://bower.io/" ><IMG src="http://bower.io/img/bower-logo.png" alt="bower logo"></A>
      <H1>Search Bower packages</H1>
    </DIV>
-	<DIV>
+    <DIV>
      <FORM id=f1><INPUT id=q1 type=TEXT value="^?¿" placeholder="any keyword ¿?"></INPUT></FORM>
      <H6><A href="https://github.com/cloned2k16/search-at-bower">by cloned2k16</A></H6>
    </DIV>
-  </DIV> 
+  </DIV>
