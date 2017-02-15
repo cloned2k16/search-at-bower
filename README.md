@@ -21,7 +21,7 @@ Simply search for packages in bower DB ...
   and finally the results shon as per page is really annoyng (at least to me)
   
 
-try it on <h3> [EC2](http://www.aws0me.tk/search/).. or .. on [Heroku](https://bower-search.herokuapp.com/search/).. 
+try it on <h3> [EC2 {expiring}](http://www.aws0me.tk/search/).. or .. on [Heroku](https://bower-search.herokuapp.com/search/).. 
 
 
 <A href="http://bower.io/" ><IMG src="http://bower.io/img/bower-logo.png" alt="bower logo" width=64></A>
