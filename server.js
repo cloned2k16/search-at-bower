@@ -93,8 +93,8 @@
     // read stored DB    
     readFile(cacheName+'.lst', (s) => storeCache(s) );    
     
-    // start DB refresh loop (10 minutes)
-    findPackages(cacheName, 60e3 * 10);
+    // start DB refresh loop (1 minutes)
+    findPackages(cacheName, 60e3 * 1);
     
     app.use('/search/', function (reQ,response) {
         var Q   =   reQ.path.substring(1)
