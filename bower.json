@@ -1,7 +1,7 @@
 {
         "name"          :   "search-at-bower"
     ,   "version"       :   "0.0.4"
-    ,   "description"   :   "Simpli search for package in Bower DDBB"
+    ,   "description"   :   "Simply search for package in Bower DDBB"
     ,   "main"          :   "index.js"
     ,   "scripts"       :   {
                                 "test": "npm test"
